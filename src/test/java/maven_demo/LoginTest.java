@@ -2,8 +2,6 @@ package maven_demo;
 
 import org.testng.annotations.Test;
 
-import maven_demo.LoginPageUITest;
-
 public class LoginTest extends Base {
 	
 	@Test(priority=0)
