@@ -2,7 +2,7 @@ package maven_demo;
 
 import org.testng.annotations.Test;
 
-public class LoginTest extends Base {
+public class LoginTest{
 	
 	@Test(priority=0)
 	public void Login_Success()
