@@ -2,39 +2,39 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-30T02:01:38 IST" name="Login Page UI Test Suite" finished-at="2024-04-30T02:01:38 IST" duration-ms="86">
+  <suite started-at="2024-04-30T17:38:02 IST" name="Login Page UI Test Suite" finished-at="2024-04-30T17:38:02 IST" duration-ms="112">
     <groups>
     </groups>
-    <test started-at="2024-04-30T02:01:38 IST" name="Login Page Form Test" finished-at="2024-04-30T02:01:38 IST" duration-ms="86">
+    <test started-at="2024-04-30T17:38:02 IST" name="Login Page Form Test" finished-at="2024-04-30T17:38:02 IST" duration-ms="112">
       <class name="maven_demo.LoginPageUITest">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:maven_demo.LoginPageUITest@1e683a3e]" started-at="2024-04-30T02:01:34 IST" name="initialize" finished-at="2024-04-30T02:01:38 IST" duration-ms="4208" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:maven_demo.LoginPageUITest@1e683a3e]" started-at="2024-04-30T17:37:58 IST" name="initialize" finished-at="2024-04-30T17:38:02 IST" duration-ms="3914" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="Find_Username_Label()[pri:0, instance:maven_demo.LoginPageUITest@1e683a3e]" started-at="2024-04-30T02:01:38 IST" name="Find_Username_Label" finished-at="2024-04-30T02:01:38 IST" duration-ms="23" status="PASS">
+        <test-method signature="Find_Username_Label()[pri:0, instance:maven_demo.LoginPageUITest@1e683a3e]" started-at="2024-04-30T17:38:02 IST" name="Find_Username_Label" finished-at="2024-04-30T17:38:02 IST" duration-ms="45" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Find_Username_Label -->
-        <test-method signature="Find_Email_Input()[pri:1, instance:maven_demo.LoginPageUITest@1e683a3e]" started-at="2024-04-30T02:01:38 IST" name="Find_Email_Input" finished-at="2024-04-30T02:01:38 IST" duration-ms="13" status="PASS">
+        <test-method signature="Find_Email_Input()[pri:1, instance:maven_demo.LoginPageUITest@1e683a3e]" started-at="2024-04-30T17:38:02 IST" name="Find_Email_Input" finished-at="2024-04-30T17:38:02 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Find_Email_Input -->
-        <test-method signature="Find_Password_Label()[pri:2, instance:maven_demo.LoginPageUITest@1e683a3e]" started-at="2024-04-30T02:01:38 IST" name="Find_Password_Label" finished-at="2024-04-30T02:01:38 IST" duration-ms="6" status="PASS">
+        <test-method signature="Find_Password_Label()[pri:2, instance:maven_demo.LoginPageUITest@1e683a3e]" started-at="2024-04-30T17:38:02 IST" name="Find_Password_Label" finished-at="2024-04-30T17:38:02 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Find_Password_Label -->
-        <test-method signature="Find_Password_Input()[pri:3, instance:maven_demo.LoginPageUITest@1e683a3e]" started-at="2024-04-30T02:01:38 IST" name="Find_Password_Input" finished-at="2024-04-30T02:01:38 IST" duration-ms="6" status="PASS">
+        <test-method signature="Find_Password_Input()[pri:3, instance:maven_demo.LoginPageUITest@1e683a3e]" started-at="2024-04-30T17:38:02 IST" name="Find_Password_Input" finished-at="2024-04-30T17:38:02 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Find_Password_Input -->
-        <test-method signature="Find_Signin_Button()[pri:7, instance:maven_demo.LoginPageUITest@1e683a3e]" started-at="2024-04-30T02:01:38 IST" name="Find_Signin_Button" finished-at="2024-04-30T02:01:38 IST" duration-ms="5" status="PASS">
+        <test-method signature="Find_Signin_Button()[pri:7, instance:maven_demo.LoginPageUITest@1e683a3e]" started-at="2024-04-30T17:38:02 IST" name="Find_Signin_Button" finished-at="2024-04-30T17:38:02 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Find_Signin_Button -->
       </class> <!-- maven_demo.LoginPageUITest -->
     </test> <!-- Login Page Form Test -->
   </suite> <!-- Login Page UI Test Suite -->
-  <suite started-at="2024-04-30T02:01:38 IST" name="LoginSanitySuite" finished-at="2024-04-30T02:01:38 IST" duration-ms="0">
+  <suite started-at="2024-04-30T17:38:02 IST" name="LoginSanitySuite" finished-at="2024-04-30T17:38:02 IST" duration-ms="0">
     <groups>
     </groups>
   </suite> <!-- LoginSanitySuite -->
