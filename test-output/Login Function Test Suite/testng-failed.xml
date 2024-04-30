@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login Function Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="Browser" value="chrome"/>
+  <test thread-count="5" name="Login Function Test(failed)">
+    <classes>
+      <class name="maven_demo.LoginTest">
+        <methods>
+          <include name="Login_Success"/>
+        </methods>
+      </class> <!-- maven_demo.LoginTest -->
+    </classes>
+  </test> <!-- Login Function Test(failed) -->
+</suite> <!-- Failed suite [Login Function Test Suite] -->

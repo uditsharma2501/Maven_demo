@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login Page UI Test Suite (0)]" guice-stage="DEVELOPMENT">
+  <parameter name="Browser" value="chrome"/>
+  <test thread-count="5" name="Login Page Form Test(failed)">
+    <classes>
+      <class name="maven_demo.MyAccountPageUITest">
+        <methods>
+          <include name="Find_LoggedIn_Username"/>
+        </methods>
+      </class> <!-- maven_demo.MyAccountPageUITest -->
+    </classes>
+  </test> <!-- Login Page Form Test(failed) -->
+</suite> <!-- Failed suite [Login Page UI Test Suite (0)] -->
