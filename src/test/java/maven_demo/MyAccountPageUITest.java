@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class MyAccountPageUITest {
 	
-	static WebElement img_ProfilePicture=null, lbl_loggedIn_user=null;
+	static WebElement img_ProfilePicture=null, lbl_loggedIn_user=null, lbl_userRole=null;
 	
 	@Test(priority=0)
 	public void Find_ProfilePicture() //if exception is caught and assertion is added in catch block, test case will fail with provided message
@@ -35,6 +35,19 @@ public class MyAccountPageUITest {
 		}catch(NoSuchElementException e)
 		{
 			Assert.fail("Username not visible");
+		}
+	}
+	
+	@Test(priority=1)
+	public void Find_UserRole() //if exception is caught and assertion is added in catch block, test case will fail with provided message
+	{	
+		try {
+		
+			lbl_userRole=Base.driver.findElement(By.xpath("//div[@class='logged-user-role']"));
+		
+		}catch(NoSuchElementException e)
+		{
+			Assert.fail("User-role not visible");
 		}
 	}
 
