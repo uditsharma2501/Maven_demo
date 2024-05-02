@@ -2,10 +2,10 @@
 
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
-<suite name="Login Page UI Test Suite">
+<suite name="My Account Page UI Test Suite">
 	<parameter name="Browser" value="chrome"/>
 	
-	<test name="Login Page Form Test">
+	<test name="My_Account Page UI Test">
 		<classes>
 			<class name="maven_demo.MyAccountPageUITest"/>		
 		</classes>	

@@ -14,7 +14,7 @@ public class Base {
 	@BeforeSuite
 	public void initialize()
 	{
-		System.setProperty("webdriver.gecko.driver","C:\\Users\\Lap-1100\\Documents\\Selenium\\Gecko Driver\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver","geckodriver.exe");
 		
 		driver=new FirefoxDriver();
 		
