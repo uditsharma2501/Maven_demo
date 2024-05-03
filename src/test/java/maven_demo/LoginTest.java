@@ -7,9 +7,9 @@ public class LoginTest{
 	@Test(priority=0)
 	public void Login_Success()
 	{
-		LoginPageUITest.inp_Username.sendKeys("abc@test.com");
+		LoginPageUITest.inp_Username.sendKeys("user1@test.com");
 		
-		LoginPageUITest.inp_Password.sendKeys("test@123");
+		LoginPageUITest.inp_Password.sendKeys("test@000");
 		
 		LoginPageUITest.btn_Signin.click();
 		
